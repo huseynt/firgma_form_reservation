@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form>
+        <h2>Reservation Form</h2>
+
+        <label for="name">Name *</label>
+        <input type="text" id="name" name="name" placeholder="Name" required>
+        <br>
+
+        <label for="email">Email *</label>
+        <input type="email" id="email" name="email" placeholder="Email*" required>
+        <br>
+
+        <label for="select">Room Type</label>
+        <select id="select">
+            <option value="one" selected>Select</option>
+            <option value="two">Select two</option>
+        </select>
+        <br>
+
+        <label for="arrival">Arrival Date *</label>
+        <input type="date" id="arrival" name="arrival" required>
+        <br>
+
+        <label for="departure">Departure Date *</label>
+        <input type="date" id="departure" name="departure" required>
+        <br>
+
+        <label for="number">Number of Guests *</label>
+        <input type="number" id="number" name="number" required>
+        <br>
+
+        <!-- her ikisine for ? -->
+        <label for="pickup">Free Pickup</label>
+        <input type="radio" id="pickup" name="pick"><label for="pickup">Yes</label>
+        <input type="radio" id="pickup" name="pick"><label for="pickup">No </label>
+        <br>
+
+        <label for="flight">Flight Number</label>
+        <input type="number" id="flight" name="flightNum" placeholder="Flight Number">
+        <br>
+
+        <label for="textArea">Special Requests</label>
+        <textarea id="textArea" name="text" rows="5" cols="50">Type Here</textarea>
+        <br>
+
+        <input type="submit" value="Submit" >
+    </form>
+
+</body>
+</html>
